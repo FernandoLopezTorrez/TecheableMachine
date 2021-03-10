@@ -1,0 +1,4 @@
+0 Reptiles
+1 Mamiferos
+2 Aves
+3 Peces
