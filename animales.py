@@ -36,3 +36,13 @@ data[0] = normalized_image_array
 # run the inference
 prediction = model.predict(data)
 print(prediction)
+
+for i in prediction:
+    if i[0] > 0.8:
+        print("Es un reptil")
+    elif i[1] > 0.8:
+            print("Es un mamifero")
+    elif i[2] > 0.8:
+            print("Es un ave")
+    elif i[1] > 0.8:
+            print("Es un pez")
